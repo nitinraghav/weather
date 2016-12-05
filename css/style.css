@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Ek+Mukta:200,300,400,500,600");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  text-align: center;
+  font-family: "Audiowide";
+  font-weight: 500;
+}
+
+.container {
+  border: 1px solid gray;
+  margin-top: 10vh;
+  box-shadow: 8px 8px 8px gray;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+}
+
+#location {
+  background: url("https://s19.postimg.org/yflra1543/Clear.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 40vh;
+}
+
+#mapMarker {
+  font-size: 1.5em;
+  color: #f00;
+}
+
+#description {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Ek Mukta";
+}
+
+#weatherDetails {
+  padding: 5%;
+}
+
+#celsius,
+#windSpeedUnit {
+  text-decoration: none;
+}
+
+#weatherDetails .elements:hover {
+  cursor: pointer;
+  background-color: lightGray;
+}
+
+.elements h5 {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.elements p {
+  font-size: 1.2em;
+}
+
+#coords {
+  padding-top: 5vh;
+  font-size: 1.4em;
+}
+
+#endCredits {
+  font-family: "Ek Mukta";
+  padding-bottom: 5vh;
+  font-size: 1.2em;
+}
+.fa-coffee{
+  color: #593C1F;
+}
+
+.fa-free-code-camp{
+  color: #196F3D ;
+}

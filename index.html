@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+
+  <div class="row" id="location">
+    <div class="container-fluid">
+      <h1><i class="fa fa-map-marker" id="mapMarker"></i> <span id="cityName">loading...</span></h1>
+      <h3 id="description"> Condition </h3>
+    </div>
+  </div>
+
+  <div id="weatherDetails">
+
+    <div class="row">
+      <div class=" elements col-xs-12 col-sm-3 col-md-3" id="tempRow">
+        <h5> Temperature</h5>
+        <p> <span id="temp">..</span> <a href="#" id="celsius">°C</a></p>
+      </div>
+
+      <div class="elements col-xs-12 col-sm-3 col-md-3">
+        <h5> Humidity</h5>
+        <p id="humidity"> % </p>
+      </div>
+
+      <div class="elements col-xs-12 col-sm-3 col-md-3" id="windSpeedRow">
+        <h5> Windspeed</h5>
+        <p><span id="windSpeed">..</span><a href="#" id="windSpeedUnit"> kph</a></p>
+      </div>
+
+      <div class="elements col-xs-12 col-sm-3 col-md-3">
+        <h5> Clouds</h5>
+        <p id="clouds"> %</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p id="coords">Co-ordinates</p>
+  <p id="endCredits"> created by <a href="http://codepen.io/nitinraghav/pens/public/">Nitin Raghav</a> with lots of <i class="fa fa-coffee"></i><br> for <i class="fa fa-free-code-camp"></i> FCC Local Weather App challenge</p>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
