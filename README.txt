@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/nitinraghav/pen/rWjwZR.
-
- 
+Find out your local weather by using this app.
